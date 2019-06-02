@@ -3,7 +3,7 @@
 
 {% block head%}
     <head>
-        <script src=d3.v4.min.js"></script>
+        <script  src="https://d3js.org/d3.v5.js"></script>
     </head>
 {%endblock head%}
 {% block body%}
@@ -22,4 +22,17 @@
     </body>
 {%endblock body%}
 
+{% comment %}
 
+------------STYLE--------
+d3.select("#someDiv").style("border", "5px darkgray dashed");
+d3.select("#someDiv").style("width", "500px");
+
+------------ATTRIBUTE--------
+d3.select("#someDiv").attr("id","newID");
+
+------------PROPERTY--------
+d3.select("#someCheckbox").property("checked",true);
+
+
+{% endcomment %}

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd713acd-f4bf-40e2-aba1-f703d3862b96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display/templates/display/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/display/templates/display/display.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thing/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/display/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
@@ -29,14 +37,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/display/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/display/templates/display/display.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thing/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -69,14 +107,17 @@
         <option value="$PROJECT_DIR$/display/settings.py" />
         <option value="$PROJECT_DIR$/display/wsgi.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/thing/urls.py" />
         <option value="$PROJECT_DIR$/thing/wsgi.py" />
-        <option value="$PROJECT_DIR$/thing/settings.py" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/display/models.py" />
         <option value="$PROJECT_DIR$/display/admin.py" />
         <option value="$PROJECT_DIR$/thing/models.py" />
+        <option value="$PROJECT_DIR$/templates/display/display.html" />
+        <option value="$PROJECT_DIR$/thing/settings.py" />
+        <option value="$PROJECT_DIR$/display/views.py" />
+        <option value="$PROJECT_DIR$/thing/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/display/templates/display/display.html" />
       </list>
     </option>
   </component>
@@ -102,23 +143,7 @@
             <path>
               <item name="thing" type="b2602c69:ProjectViewProjectNode" />
               <item name="thing" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thing" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thing" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thing" type="462c0819:PsiDirectoryNode" />
-              <item name="thing" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,11 +161,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/thing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/display/templates/display" />
+      <recent name="$PROJECT_DIR$/display/templates" />
+      <recent name="$PROJECT_DIR$/thing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559383119744</updated>
       <workItem from="1559383122822" duration="12619000" />
-      <workItem from="1559419275725" duration="1111000" />
+      <workItem from="1559419275725" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="Pre Migrate Commit">
       <created>1559388175926</created>
@@ -222,22 +249,36 @@
       <option name="project" value="LOCAL" />
       <updated>1559394907829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Addition of Base.html">
+      <created>1559461988168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559461988169</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Base Display hml">
+      <created>1559477182647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559477182647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13730000" />
+    <option name="totallyTimeSpent" value="17232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="66" width="1282" height="967" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.267423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23581848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.602107" visible="true" weight="0.5413625" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6012966" visible="true" weight="0.5413625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="manage.py@thing" order="9" sideWeight="0.49837926" weight="0.256691" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39789304" side_tool="true" visible="true" weight="0.5413625" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3987034" side_tool="true" visible="true" weight="0.5413625" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.57050246" weight="0.3296837" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296837" />
@@ -304,23 +345,15 @@
     <MESSAGE value="Pre Migrate Commit" />
     <MESSAGE value="First Base Objects" />
     <MESSAGE value="First Databasse objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Databasse objects" />
+    <MESSAGE value="Addition of Base.html" />
+    <MESSAGE value="Base Display hml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Display hml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.6/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="120" column="45" lean-forward="true" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -387,17 +420,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thing/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="84">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/display/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thing/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/display/templates/display/display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
