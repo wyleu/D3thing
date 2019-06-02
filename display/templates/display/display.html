@@ -87,11 +87,20 @@ d3.select("div").style(
 "border", "solid black 2px").html(
 "You have now dynamically changed the content of a web page eleement")
 
+var someData = ["filler", "filler","filler","filler"]
+d3.selectAll("body").data(someData).enter().append("div").html("Wow").append("span").html("Even More WowWWW!")
+
+
 ------------ATTRIBUTE--------
 d3.select("#someDiv").attr("id","newID");
 
 ------------PROPERTY--------
 d3.select("#someCheckbox").property("checked",true);
+
+
+-------------------DATA USR ---------------------------
+var someData = ["filler", "filler","filler","filler"]
+d3.selectAll("body").data(someData).enter().append("div").html("Wow").append("span").html("Even More WowWWW!")
 
 
 {% endcomment %}
