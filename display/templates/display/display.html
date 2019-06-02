@@ -19,6 +19,38 @@
                    type="checkbox"
             />
         </div>
+    <div id=infovizDiv">
+        <svg style="width:500px;
+                    height:500px;
+                    border:2px lightgray solid;"
+                    >
+            <path d="M 10,60 40,30 50,50 60,30 70,80"
+                  style="fill:black;stroke:gray;stroke-width:4px"/>
+            <polygon style="fill:gray;"
+                     points="80,400 120,400 160,440 120,480 60,460" />
+            <g>
+                <line
+                        x1="200"
+                        y1="100"
+                        x2="450"
+                        y2="225"
+                        style="stroke:black;stroke-width:4px";
+                />
+                <circle
+                        cy="100"
+                        cx="200"
+                        r="30"
+                />
+                <rect
+                        x="410"
+                        y="200"
+                        width="200"
+                        height="50"
+                        style="fill:pink;stroke:black;strike-width:1px;"
+                />
+            </g>
+        </svg>
+    </div>
     </body>
 {%endblock body%}
 
@@ -27,6 +59,10 @@
 ------------STYLE--------
 d3.select("#someDiv").style("border", "5px darkgray dashed");
 d3.select("#someDiv").style("width", "500px");
+d3.select("div").style(
+"background", "lightblue").style(
+"border", "solid black 2px").html(
+"You have now dynamically changed the content of a web page eleement")
 
 ------------ATTRIBUTE--------
 d3.select("#someDiv").attr("id","newID");
