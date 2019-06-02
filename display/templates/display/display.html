@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block head%}
+    <head>
+        <script src=d3.v4.min.js"></script>
+    </head>
+{%endblock head%}
+{% block body%}
+    <body>
+    <h1>{{ title.title_text }}</h1>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+        <div id="someDiv"
+             style="width:200px;
+                    height:100px;
+                    border:black 1px solid;"
+        >
+            <input id="SomeCheckbox"
+                   type="checkbox"
+            />
+        </div>
+    </body>
+{%endblock body%}
+
+
