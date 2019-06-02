@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd713acd-f4bf-40e2-aba1-f703d3862b96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/templates/display/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/display/templates/display/display.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/display/templates/display/display.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="63">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#body#0;n#!!top" expanded="true" />
@@ -126,10 +125,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="266" />
-    <option name="y" value="542" />
-    <option name="width" value="749" />
-    <option name="height" value="822" />
+    <option name="x" value="-132" />
+    <option name="y" value="238" />
+    <option name="width" value="757" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zynthian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
@@ -223,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559383119744</updated>
       <workItem from="1559383122822" duration="12619000" />
-      <workItem from="1559419275725" duration="7036000" />
+      <workItem from="1559419275725" duration="9779000" />
     </task>
     <task id="LOCAL-00001" summary="Pre Migrate Commit">
       <created>1559388175926</created>
@@ -281,11 +280,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559479886344</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Base Display html with css element primitives">
+      <created>1559481662757</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559481662757</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Base Display html with data primitives">
+      <created>1559482600970</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559482600970</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19655000" />
+    <option name="totallyTimeSpent" value="22398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="66" width="1282" height="967" extended-state="6" />
@@ -296,7 +309,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6012966" visible="true" weight="0.36618006" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5680713" visible="true" weight="0.36618006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +317,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="manage.py@thing" order="9" sideWeight="0.49837926" weight="0.256691" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3987034" side_tool="true" visible="true" weight="0.36618006" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4319287" side_tool="true" visible="true" weight="0.36618006" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.57050246" weight="0.3296837" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296837" />
@@ -367,7 +380,9 @@
     <MESSAGE value="Base Display hml" />
     <MESSAGE value="Base Display html with remote d3 library" />
     <MESSAGE value="Base Display html with svg primitives" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base Display html with svg primitives" />
+    <MESSAGE value="Base Display html with css element primitives" />
+    <MESSAGE value="Base Display html with data primitives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Display html with data primitives" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.6/importlib/__init__.py">
@@ -471,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/display/templates/display/display.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="63">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#body#0;n#!!top" expanded="true" />
