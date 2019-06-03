@@ -3,7 +3,7 @@
 
 {% block head%}
     <head>
-        <script  src="https://d3js.org/d3.v5.js"></script>
+        <script  src="https://d3js.org/d3.v3.js"></script>
         <style>
             .inactive, .tentative {
                 stroke: darkgray;
@@ -102,5 +102,7 @@ d3.select("#someCheckbox").property("checked",true);
 var someData = ["filler", "filler","filler","filler"]
 d3.selectAll("body").data(someData).enter().append("div").html("Wow").append("span").html("Even More WowWWW!")
 
+
+d3.json("/static/json/tweets.json", data => console.log(data));
 
 {% endcomment %}

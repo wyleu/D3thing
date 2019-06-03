@@ -2,7 +2,7 @@
 <head>
   <title>D3 in Action Chapter 2 - Example 1</title>
   <meta charset="utf-8" />
-<script src="d3.v3.min.js" type="text/JavaScript"></script>
+ <script  src="https://d3js.org/d3.v3.js" type="text/JavaScript"></script>
 </head>
 <style>
 </style>
@@ -14,7 +14,8 @@
   <footer>
     
 <script>
-d3.csv("cities.csv",function(error,data) {dataViz(data)});
+d3.csv("/static/csv/cities.csv",function(error,data) {dataViz(data)});
+
 function dataViz(incomingData) {
 d3.select("body").selectAll("div.cities")
 .data(incomingData)
